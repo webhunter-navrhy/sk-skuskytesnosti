@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Skúšky tesnosti žúmp a nádrží | Mgr. Peter Nagy</title>
+<meta name="description" content="Skúšky tesnosti a vodotesnosti žúmp, septikov, nádrží, záchytných vaní a lapačov podľa STN 75 0905 s protokolom ku kolaudácii. Západné Slovensko.">
+<style>
+:root{--p:#0a808b;--pd:#08636c;--ink:#0f1c2a;--soft:#eef5f6;--line:#d9e4e7;--mut:#51636e}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}html,body{overflow-x:hidden}
+body{font:17px/1.65 "Plus Jakarta Sans","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:9;background:#fffffff2;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;gap:20px;height:70px}
+.logo{display:flex;flex-direction:column;line-height:1.15;text-decoration:none;margin-right:auto}
+.logo b{font-size:20px;font-weight:800;color:var(--p)}
+.logo span{font-size:12px;color:var(--mut);letter-spacing:.04em}
+nav{display:flex;gap:22px;font-size:15px;font-weight:600}
+nav a{text-decoration:none}nav a:hover{color:var(--p)}
+.btn{display:inline-block;background:var(--p);color:#fff;font-weight:700;text-decoration:none;padding:13px 24px;border-radius:8px;font-size:16px}
+.btn:hover{background:var(--pd)}
+.btn.o{background:transparent;color:#fff;border:2px solid #ffffff99}
+.btn.o:hover{background:#ffffff22}
+header .btn{padding:9px 16px;font-size:15px}
+.hero{background:var(--ink);color:#fff}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding:72px 24px 80px}
+.hero .wrap>*{min-width:0}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#5fd0db;margin-bottom:14px}
+h1{font-size:clamp(32px,4.6vw,52px);line-height:1.1;font-weight:800;margin-bottom:20px}
+.hero p{color:#cfdde2;font-size:18px;max-width:520px;margin-bottom:28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero img{width:100%;height:420px;object-fit:cover;border-radius:14px;border:1px solid #ffffff26}
+.facts{background:var(--soft);border-bottom:1px solid var(--line)}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:28px 24px}
+.facts b{display:block;font-size:15px;color:var(--pd)}.facts span{font-size:14px;color:var(--mut)}
+section{padding:80px 0}
+.k{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--p);margin-bottom:10px}
+h2{font-size:clamp(26px,3.4vw,38px);line-height:1.15;font-weight:800;margin-bottom:14px}
+.lead{color:var(--mut);max-width:680px;margin-bottom:36px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid var(--line);border-radius:12px;padding:24px;background:#fff}
+.card h3{font-size:18px;margin-bottom:8px}.card p{font-size:15.5px;color:var(--mut)}
+.card small{display:block;font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--p);margin-bottom:8px;text-transform:uppercase}
+.alt{background:var(--soft)}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;counter-reset:s}
+.steps div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;counter-increment:s}
+.steps div:before{content:counter(s);display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--p);color:#fff;font-weight:800;margin-bottom:10px}
+.steps b{display:block;margin-bottom:4px}.steps span{font-size:14.5px;color:var(--mut)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.two>*{min-width:0}
+.two img{width:100%;border-radius:14px;max-height:520px;object-fit:cover}
+ul.ok{list-style:none;padding:0}ul.ok li{padding:9px 0 9px 30px;position:relative;border-bottom:1px solid var(--line)}
+ul.ok li:before{content:"";position:absolute;left:4px;top:17px;width:12px;height:7px;border-left:3px solid var(--p);border-bottom:3px solid var(--p);transform:rotate(-45deg)}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.gal figure{margin:0}
+.gal img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px}
+.gal figcaption{font-size:14px;color:var(--mut);margin-top:8px}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.price>*{min-width:0}
+.big{font-size:54px;font-weight:800;color:var(--p);line-height:1}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{font-weight:700;cursor:pointer}
+details p{margin-top:10px;color:var(--mut);font-size:16px}
+.contact{background:var(--ink);color:#fff}
+.contact .k{color:#5fd0db}.contact p{color:#cfdde2}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.cgrid>*{min-width:0}
+form{display:grid;gap:12px}
+input,textarea{font:inherit;padding:12px 14px;border-radius:8px;border:1px solid #ffffff44;background:#ffffff12;color:#fff;width:100%}
+input::placeholder,textarea::placeholder{color:#b5c6cc}
+form .btn{border:0;cursor:pointer;justify-self:start}
+footer{background:#0a131d;color:#9fb1b8;font-size:14px;padding:28px 0}
+@media(max-width:900px){
+nav{display:none}
+.hero .wrap,.two,.price,.cgrid{grid-template-columns:1fr}
+.hero img{height:260px}
+.facts .wrap,.gal{grid-template-columns:1fr 1fr}
+.grid3,.steps{grid-template-columns:1fr}
+section{padding:56px 0}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#"><b>Skúšky tesnosti</b><span>Mgr. Peter Nagy · STN 75 0905</span></a>
+<nav><a href="#sluzby">Služby</a><a href="#protokol">Protokol</a><a href="#cennik">Cenník</a><a href="#referencie">Referencie</a><a href="#o-mne">O mne</a><a href="#kontakt">Kontakt</a></nav>
+<a class="btn" href="tel:+421903890081">0903 890 081</a>
+</div></header>
+
+<div class="hero"><div class="wrap">
+<div>
+<div class="eyebrow">STN 75 0905 · Protokol o skúške</div>
+<h1>Skúšky tesnosti žúmp, nádrží a záchytných vaní s protokolom</h1>
+<p>Odborná skúška vodotesnosti, ktorú vykoná osobne Mgr. Peter Nagy. Protokol slúži ako podklad ku kolaudácii. Pôsobím najmä na západnom Slovensku.</p>
+<div class="cta"><a class="btn" href="#kontakt">Objednať skúšku</a><a class="btn o" href="#sluzby">Pozrieť služby</a></div>
+</div>
+<img src="img/hero-skuska-tesnosti-nadrze.jpg?v=6aa6a1d3" alt="Meranie hladiny vody v betónovej žumpe">
+</div></div>
+
+<div class="facts"><div class="wrap">
+<div><b>STN 75 0905</b><span>Skúšky vodotesnosti podľa platnej normy</span></div>
+<div><b>Protokol o skúške</b><span>Metodika, merania a jednoznačný výsledok</span></div>
+<div><b>NDT 2. stupeň</b><span>LT / VT / UTT, bezpečnostný poradca ADR</span></div>
+<div><b>Západné Slovensko</b><span>Trnavský, Bratislavský, Nitriansky, Trenčiansky kraj</span></div>
+</div></div>
+
+<section id="sluzby"><div class="wrap">
+<div class="k">Rozsah</div><h2>Čo pre Vás skúšame</h2>
+<p class="lead">Skúšky tesnosti a vodotesnosti na betónových, železobetónových, plastových aj oceľových objektoch – od žumpy pri rodinnom dome po priemyselné nádrže.</p>
+<div class="grid3">
+<div class="card"><small>STN 75 0905</small><h3>Žumpy a septiky</h3><p>Betónové, železobetónové aj plastové žumpy pri rodinných domoch, chatách a prevádzkach. Skúška vodotesnosti s korekciou výparu.</p></div>
+<div class="card"><small>STN 75 0905</small><h3>Nádrže a retenčné nádrže</h3><p>Retenčné, akumulačné, požiarne a technologické nádrže vrátane väčších podzemných objektov.</p></div>
+<div class="card"><small>Havarijná ochrana vôd</small><h3>Záchytné vane, lapače a odlučovače</h3><p>Kontrola tesnosti havarijných a záchytných vaní, lapačov ropných látok a tukov.</p></div>
+<div class="card"><small>Technická diagnostika</small><h3>Potrubia a kanalizácie</h3><p>Skúšky tesnosti a diagnostika potrubí, kanalizačných vetiev a prípojok.</p></div>
+<div class="card"><small>Individuálne posúdenie</small><h3>ČOV a technologické objekty</h3><p>Nádrže ČOV a priemyselné objekty posudzujem podľa konštrukcie, objemu a prevádzky. Rozsah a metodiku dohodneme vopred.</p></div>
+<div class="card" style="background:var(--soft)"><small>Súvisiace služby</small><h3>ADR poradenstvo a odpadové hospodárstvo</h3><p>Poradenstvo pre ADR a odpadové hospodárstvo na jednom mieste.</p></div>
+</div></div></section>
+
+<section id="protokol" class="alt"><div class="wrap two">
+<div>
+<div class="k">Výstup</div><h2>Protokol, ktorý má váhu</h2>
+<p class="lead" style="margin-bottom:18px">Protokol môže byť požadovaný pri kolaudácii podľa projektu, povolenia alebo požiadaviek úradu. Slúži aj ako doklad pre prevádzkovateľa pri kontrole.</p>
+<ul class="ok">
+<li>Identifikácia objektu: typ, materiál, rozmery a objem</li>
+<li>Metodika skúšky: postup, norma, napustenie a stabilizácia</li>
+<li>Namerané hodnoty: počiatočná a koncová hladina, čas merania</li>
+<li>Korekcie na výpar a zrážky pri otvorených objektoch</li>
+<li>Porovnanie s limitom a záver vyhovuje / nevyhovuje</li>
+<li>Dátum, vyhodnotenie a podpis osoby, ktorá skúšku vykonala</li>
+</ul>
+</div>
+<img src="img/referencia-zumpa-rodinny-dom.jpg?v=6aa6a1d3" alt="Skúška tesnosti žumpy pri rodinnom dome">
+</div></section>
+
+<section><div class="wrap">
+<div class="k">Priebeh</div><h2>Ako prebieha spolupráca</h2>
+<p class="lead">Od prvého kontaktu po odovzdanie protokolu.</p>
+<div class="steps">
+<div><b>Podklady</b><span>Pošlete typ objektu, rozmery alebo objem, lokalitu a fotografie.</span></div>
+<div><b>Rozsah a termín</b><span>Navrhnem metodiku, cenu a termín podľa typu objektu.</span></div>
+<div><b>Príprava a skúška</b><span>Objekt sa pripraví, napustí a na mieste sa vykoná meranie.</span></div>
+<div><b>Vyhodnotenie</b><span>Namerané hodnoty prepočítam a porovnám s limitom podľa normy.</span></div>
+<div><b>Protokol</b><span>Vystavím protokol s jednoznačným výsledkom.</span></div>
+</div></div></section>
+
+<section id="cennik" class="alt"><div class="wrap price">
+<div>
+<div class="k">Cenník</div><h2>Skúška tesnosti žumpy</h2>
+<div class="big">od 170 €</div>
+<p style="color:var(--mut);margin-top:10px">plus doprava. Konečná cena závisí od objemu, typu konštrukcie, dostupnosti a lokality. Po zaslaní fotografií a rozmerov pripravím presnú cenu.</p>
+<p style="margin-top:22px"><a class="btn" href="#kontakt">Poslať podklady</a></p>
+</div>
+<div>
+<div class="k">Časté otázky</div>
+<details><summary>Ako dlho trvá skúška tesnosti?</summary><p>Pri bežnej plastovej žumpe približne tri dni od ukončenia napustenia, pri betónovej približne šesť dní. K tomu treba pripočítať čas na samotné napustenie.</p></details>
+<details><summary>Čo treba pripraviť pred skúškou?</summary><p>Objekt musí byť vyprázdnený, vyčistený a prístupný, k dispozícii voda na napustenie a prestupy potrubí hotové a utesnené. Vhodné je mať pripravenú dokumentáciu alebo rozmery.</p></details>
+<details><summary>Je protokol potrebný ku kolaudácii?</summary><p>Môže byť požadovaný, ak to vyplýva z projektu, podmienok povolenia alebo požiadavky úradu. Protokol potom slúži ako doklad o vodotesnosti.</p></details>
+<details><summary>Skúšate betónovú aj plastovú žumpu?</summary><p>Áno, betónové, železobetónové aj plastové žumpy, septiky a nádrže. Líši sa len príprava – plastové objekty nepotrebujú saturáciu, betónové áno.</p></details>
+</div>
+</div></section>
+
+<section id="referencie"><div class="wrap">
+<div class="k">Prax</div><h2>Reálne ukážky vykonaných skúšok</h2>
+<p class="lead">Typ objektu, metóda merania a výstup, ktorý zákazník dostal.</p>
+<div class="gal">
+<figure><img src="img/referencia-betonova-zumpa.jpg?v=6aa6a1d3" alt="Betónová žumpa" loading="lazy"><figcaption><b>Betónová žumpa</b><br>pri rodinnom dome</figcaption></figure>
+<figure><img src="img/referencia-podzemna-nadrz.jpg?v=6aa6a1d3" alt="Podzemná nádrž" loading="lazy"><figcaption><b>Podzemná akumulačná nádrž</b><br>meranie poklesu hladiny</figcaption></figure>
+<figure><img src="img/referencia-technicka-nadrz.jpg?v=6aa6a1d3" alt="Technická nádrž" loading="lazy"><figcaption><b>Technická nádrž</b><br>prevádzkový objekt</figcaption></figure>
+<figure><img src="img/referencia-zumpa-rodinny-dom.jpg?v=6aa6a1d3" alt="Žumpa pri rodinnom dome" loading="lazy"><figcaption><b>Skúška v teréne</b><br>priamo na mieste</figcaption></figure>
+</div></div></section>
+
+<section id="o-mne" class="alt"><div class="wrap two">
+<img src="img/peter.jpg?v=6aa6a1d3" alt="Mgr. Peter Nagy" style="max-height:560px">
+<div>
+<div class="k">Odbornosť</div><h2>Mgr. Peter Nagy</h2>
+<p class="lead" style="margin-bottom:18px">Skúšky tesnosti vykonávam osobne, nie cez sprostredkovateľa. Meranie, vyhodnotenie aj protokol pripravuje ten istý človek, ktorý ho podpisuje.</p>
+<ul class="ok">
+<li>NDT kvalifikácia LT / VT / UTT – 2. stupeň</li>
+<li>Bezpečnostný poradca ADR</li>
+<li>Prax so žumpami, nádržami, záchytnými vaňami, lapačmi aj technologickými objektmi</li>
+</ul>
+</div>
+</div></section>
+
+<section class="contact" id="kontakt"><div class="wrap cgrid">
+<div>
+<div class="k">Kontakt</div><h2>Objednať skúšku tesnosti</h2>
+<p>Pošlite lokalitu, rozmery a fotografie objektu – pripravím rozsah, termín a cenu.</p>
+<p style="margin-top:22px"><b>0903 890 081</b><br>info@skuskytesnosti.sk<br>Mgr. Peter Nagy – ADR&amp;EKO SERVIS<br>Rybníková 370/19, 919 32 Opoj</p>
+<p style="margin-top:12px;font-size:14px">Kontaktná a fakturačná adresa, nie prevádzka pre návštevy.</p>
+</div>
+<form onsubmit="event.preventDefault();alert('Ukážkový formulár – v náhľade sa nič neodosiela.')">
+<input placeholder="Meno" aria-label="Meno"><input placeholder="E-mail alebo telefón" aria-label="Kontakt">
+<input placeholder="Lokalita objektu" aria-label="Lokalita">
+<textarea rows="4" placeholder="Typ objektu, rozmery, poznámka" aria-label="Správa"></textarea>
+<button class="btn">Odoslať dopyt</button>
+</form>
+</div></section>
+<footer><div class="wrap">© 2026 Mgr. Peter Nagy – ADR&amp;EKO SERVIS · Skúšky tesnosti podľa STN 75 0905 · Návrh nového webu (náhľad)</div></footer>
+</body></html>
